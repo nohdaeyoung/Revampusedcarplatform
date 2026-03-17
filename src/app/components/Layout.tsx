@@ -105,11 +105,6 @@ export function Layout() {
               한국의 믿을 수 있는 중고차를 전 세계 바이어에게 안전하게 연결해 드립니다. 
               수출용 차량 매입/판매의 새로운 기준을 제시합니다.
             </p>
-            <div className="flex gap-4">
-              <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 cursor-pointer transition-colors font-bold text-white">F</div>
-              <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 cursor-pointer transition-colors font-bold text-white">X</div>
-              <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 cursor-pointer transition-colors font-bold text-white">In</div>
-            </div>
           </div>
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>

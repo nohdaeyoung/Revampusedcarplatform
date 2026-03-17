@@ -292,12 +292,6 @@ export function Home() {
                       <p className="text-xs font-bold text-gray-500 mb-0.5">Sold Price</p>
                       <p className="text-xl font-black text-gray-400 line-through decoration-red-500/50">{car.price}</p>
                     </div>
-                    <div className="text-right">
-                      <p className="text-xs font-bold text-gray-500 mb-0.5">Destination</p>
-                      <p className="text-sm font-bold text-blue-400 bg-blue-900/30 px-3 py-1 rounded-md border border-blue-500/20">
-                        {car.destination}
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -539,7 +533,7 @@ export function Home() {
               <div className="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center bg-[#0a0a0a]">
                 <div className="mb-6">
                   <span className="inline-block bg-blue-900/30 text-blue-400 px-3 py-1 rounded-md border border-blue-500/20 text-xs font-bold mb-3 uppercase tracking-wider">
-                    Exported to {selectedSoldCar.destination}
+                    Successfully Exported
                   </span>
                   <h3 className="text-2xl md:text-3xl font-black text-white leading-tight mb-2">
                     {selectedSoldCar.name}
